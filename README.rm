@@ -1,0 +1,17 @@
+Analyse de l'effet de l'ensoleillement et de la température sur le déplacement des structures
+Ce projet vise à analyser l'effet de l'ensoleillement et de la température sur le déplacement des structures. Nous utilisons des données collectées sur une période donnée pour explorer les relations entre ces variables et développer un modèle prédictif.
+Données
+Les données utilisées dans ce projet sont stockées dans un fichier CSV. Chaque enregistrement comprend les informations suivantes :
+•	TIMESTAMP : la date et l'heure de l'observation.
+•	deplacement : le déplacement des structures.
+•	ensoleillement : le niveau d'ensoleillement enregistré.
+•	temperature : la température enregistrée.
+Étapes du projet
+Voici les principales étapes que nous avons suivies dans ce projet :
+1.	Exploration des données : Nous avons commencé par visualiser les données en utilisant des graphiques tels que des scatter plots pour observer les relations entre les variables.
+2.	Calcul de la corrélation : Nous avons calculé la matrice de corrélation pour mesurer les relations linéaires entre les variables. Les corrélations significatives ont été identifiées et mises en évidence.
+3.	Modélisation prédictive : Nous avons utilisé des techniques de machine learning, notamment la régression linéaire, la régression multiple et la régression polynomiales, pour développer un modèle prédictif. Les données ont été séparées en ensembles d'entraînement et de test, et les performances du modèle ont été évaluées à l'aide de métriques telles que le coefficient de détermination (R²) et l'erreur quadratique moyenne (RMSE).
+4.	Optimisation des hyperparamètres : Nous avons recherché les meilleurs hyperparamètres pour nos modèles en utilisant la technique de recherche par grille avec validation croisée.
+5.	Validation des modèles : Nous avons évalué les performances de nos modèles en comparant les résultats de la régression linéaire multiple et de la régression polynomiale.
+Exécution du code
+Le code utilisé dans ce projet est écrit en langage Python et utilise des bibliothèques telles que pandas, matplotlib, scikit-learn et statsmodels. Assurez-vous d'avoir ces bibliothèques installées avant d'exécuter le code
